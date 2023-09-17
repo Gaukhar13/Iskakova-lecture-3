@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4.0.0
       
       - name: Setup Node.js environment
-        uses: actions/setup-node@v2  
+        uses: actions/setup-node@v3.8.1    
         with:
            node-version: '18'
            
@@ -33,7 +33,7 @@ jobs:
       #     path: results.xml
       - name: Checkout to gh-pages branch
         if: always()
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4.0.0
         with:
           ref: gh-pages
           path: gh-pages
