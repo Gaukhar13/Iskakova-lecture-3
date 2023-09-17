@@ -1,4 +1,4 @@
-name: Postman Collection workflow
+name: Newman Postman Collection workflow
 
 on:
   push:
@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.0.0
+        uses: actions/checkout@v2
       
       - name: Setup Node.js environment
-        uses: actions/setup-node@v3.8.1   
+        uses: actions/setup-node@v2  
         with:
            node-version: '18'
            
