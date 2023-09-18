@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Iskakova" tests="245" time="29.896">
+  <testsuite name="lecture-1 / Admin / Receive token" id="9a0e326b-529b-436d-9f81-7e48a2327622" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.629">
+    <testcase name="Response time is less than 3000ms" time="0.629" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.629" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Admin / Create an admin" id="b95a37bb-2b66-4fd3-9a49-ac06d195513f" timestamp="2023-09-18T07:56:23.210Z" tests="3" failures="0" errors="0" time="0.024">
+    <testcase name="Response time is less than 3000ms" time="0.024" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.024" classname="Iskakova"/>
+    <testcase name="Admin created" time="0.024" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Admin / Login as an admin" id="f0aae87b-22a8-4a23-86c9-14adcc3e1839" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.289">
+    <testcase name="Response time is less than 3000ms" time="0.289" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.289" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Admin / Create a category for a course" id="180dc9a1-b33e-4f7e-9bc3-80edbcbc8883" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.041">
+    <testcase name="Response time is less than 3000ms" time="0.041" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.041" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Admin / Get list of teachers" id="0da79128-777c-418c-83fe-a6fb1b409107" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.113">
+    <testcase name="Response time is less than 3000ms" time="0.113" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.113" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Teacher / Create teacher" id="5f3f0c37-61a8-4e78-973b-f1efb668dda8" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.302">
+    <testcase name="Response time is less than 3000ms" time="0.302" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.302" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Teacher / Login as a teacher" id="a09f5bbc-335e-4956-bdbb-444ae596d8d3" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.349">
+    <testcase name="Response time is less than 3000ms" time="0.349" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.349" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Student / Create Student" id="166ca977-8c2b-4e5b-b746-a55e5e9c7581" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.366">
+    <testcase name="Response time is less than 3000ms" time="0.366" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.366" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Student / Login as a student" id="b1e7d209-dab7-4d38-849c-fcff0a361261" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.295">
+    <testcase name="Response time is less than 3000ms" time="0.295" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.295" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category GET / Get list of categories as an admin" id="2187ba8a-6d41-4e6d-931d-2b05508e0fc9" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.051">
+    <testcase name="Response time is less than 3000ms" time="0.051" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.051" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category GET / Get list of categories as a teacher" id="2e5426da-72dc-4f25-a827-4ba09a73ed85" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.026">
+    <testcase name="Response time is less than 3000ms" time="0.026" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.026" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category GET / Get list of categories as a student" id="6500e354-2a1b-47b4-be95-379eae21a29c" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.024">
+    <testcase name="Response time is less than 3000ms" time="0.024" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.024" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category GET / Get list of categories Unauthorized" id="3f368544-943e-484b-8b3e-6012c53915c2" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.018">
+    <testcase name="Response time is less than 3000ms" time="0.018" classname="Iskakova"/>
+    <testcase name="Status code is 401" time="0.018" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category POST / Create a category as an admin" id="eceddec8-4c6e-4564-82c7-be35349653ec" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.036">
+    <testcase name="Response time is less than 3000ms" time="0.036" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.036" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category POST / Create a category as a teacher" id="58e48eb5-9474-4ece-ab40-43c6dd1b9b25" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.023">
+    <testcase name="Response time is less than 3000ms" time="0.023" classname="Iskakova"/>
+    <testcase name="Status code is 403" time="0.023" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category POST / Create a category as a student" id="3d16fb5b-69a7-4168-8a85-aa67a3b17a53" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.021">
+    <testcase name="Response time is less than 3000ms" time="0.021" classname="Iskakova"/>
+    <testcase name="Status code is 403" time="0.021" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category POST / Create a category Unauthorized" id="011b52c2-49f9-4afd-b17b-bf6d02db3593" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 401" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category POST / Create a category as an admin no title" id="ace31b9a-bc2c-401d-b176-1278543b02bb" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category POST / Create a category as an admin title more than 100 characters" id="ceb5e98b-ee02-41cf-bd51-ff5bd07b5ee8" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category PATCH / Change the category as an admin" id="8f45d62a-6224-4374-a5f6-518153c06b5a" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.036">
+    <testcase name="Response time is less than 3000ms" time="0.036" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.036" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category PATCH / Change the category as a teacher" id="c863712c-a580-4e3b-9be9-7aaf55aeb182" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.246">
+    <testcase name="Response time is less than 3000ms" time="0.246" classname="Iskakova"/>
+    <testcase name="Status code is 403" time="0.246" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category PATCH / Change the category as a student" id="74cf3ac9-eb1b-430f-8b39-2b073507e3ad" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.021">
+    <testcase name="Response time is less than 3000ms" time="0.021" classname="Iskakova"/>
+    <testcase name="Status code is 403" time="0.021" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category PATCH / Change the category Unauthorized" id="ccf266b9-242a-486a-bc35-9680cb943a48" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 401" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category PATCH / Change the category as an admin with random id" id="c6f06676-a2b7-454e-bde5-52c9d3162170" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.022">
+    <testcase name="Response time is less than 3000ms" time="0.022" classname="Iskakova"/>
+    <testcase name="Status code is 404" time="0.022" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category GET by ID / Get category by id as an admin" id="d972e428-0093-4fc5-af59-78b91eb8a407" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.022">
+    <testcase name="Response time is less than 3000ms" time="0.022" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.022" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category GET by ID / Get category by id as a teacher" id="6748297e-2906-4cbc-a45d-c07ce399afdc" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.028">
+    <testcase name="Response time is less than 3000ms" time="0.028" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.028" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category GET by ID / Get category by id as a student" id="6f4b8553-eba6-49d8-8ffd-2e159e7d6cd7" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.020">
+    <testcase name="Response time is less than 3000ms" time="0.020" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.020" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category GET by ID / Get category by id Unauthorized" id="e9257de1-e8da-4c82-b856-3d8059724d66" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 401" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category GET by ID / Get category by id as an admin with random id" id="50ed4df6-3a1c-49d9-981c-606e04df1c25" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.021">
+    <testcase name="Response time is less than 3000ms" time="0.021" classname="Iskakova"/>
+    <testcase name="Status code is 404" time="0.021" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category DELETE / Delete a category Unauthorized" id="8aacf9d6-0117-4bc0-ae44-8e8e24c38925" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 401" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category DELETE / Delete a category as a teacher" id="46209c81-99f8-4866-9b08-e7d737a656e1" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.021">
+    <testcase name="Response time is less than 3000ms" time="0.021" classname="Iskakova"/>
+    <testcase name="Status code is 403" time="0.021" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category DELETE / Delete a category as a student" id="025c839c-d6db-42eb-b9f0-fbd44e205e7f" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.020">
+    <testcase name="Response time is less than 3000ms" time="0.020" classname="Iskakova"/>
+    <testcase name="Status code is 403" time="0.020" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Category DELETE / Delete a category as an admin" id="f517396c-071e-4f20-9b7f-9d06f56d2b24" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.031">
+    <testcase name="Response time is less than 3000ms" time="0.031" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.031" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'username' field / Create user with empty username field" id="d48cc1c2-e01b-436f-b8df-2cb86d0f5ce4" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'username' field / Create user with 2 alphabetical characters in username field" id="1658dacf-f0bf-44d4-9a8f-38c195bb48f3" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'username' field / Create user with 3 alphabetical characters in username field" id="9b11bb23-2b95-44c1-a1c4-e7ce9c172fc9" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.296">
+    <testcase name="Response time is less than 3000ms" time="0.296" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.296" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'username' field / Delete created user in testing username" id="46c0a0d1-7662-476a-a130-2ae8d6062772" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.045">
+    <testcase name="Response time is less than 3000ms" time="0.045" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.045" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'username' field / Create user with 4 alphabetical characters in username field" id="1ecfc7b8-83d2-4a6f-b373-643681a0e2b8" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.829">
+    <testcase name="Response time is less than 3000ms" time="0.829" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.829" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'username' field / Delete created user in testing username" id="c4fd8c20-a121-4397-8bba-30347e00f484" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.047">
+    <testcase name="Response time is less than 3000ms" time="0.047" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.047" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'username' field / Create user with 254 alphabetical characters in username field" id="8629092f-0198-4804-8960-176d0049b441" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.336">
+    <testcase name="Response time is less than 3000ms" time="0.336" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.336" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'username' field / Delete created user in testing username" id="3ebaab7a-77fe-4562-b3df-943abb452de3" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.032">
+    <testcase name="Response time is less than 3000ms" time="0.032" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.032" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'username' field / Create user with 255 alphabetical characters in username field" id="9fb3aa0c-8b1f-4cc2-8878-11d2484e0212" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.284">
+    <testcase name="Response time is less than 3000ms" time="0.284" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.284" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'username' field / Delete created user in testing username" id="5372c86a-45c3-450a-9568-c5891cea5d98" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.032">
+    <testcase name="Response time is less than 3000ms" time="0.032" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.032" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'username' field / Create user with 256 alphabetical characters in username field" id="1703ba1a-7c7c-4170-a44c-10c5449ea67d" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'username' field / Create user with spaces in username field" id="e1cff690-c449-435d-aadb-f171f001a56d" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.284">
+    <testcase name="Response time is less than 3000ms" time="0.284" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.284" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'username' field / Delete created user in testing username" id="518ad68d-53a9-4a77-a70a-6fc5b591895a" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.034">
+    <testcase name="Response time is less than 3000ms" time="0.034" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.034" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'username' field / Create user with numeric characters in username field" id="94691e98-83fa-4e03-a763-a0469deaf2a0" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.314">
+    <testcase name="Response time is less than 3000ms" time="0.314" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.314" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'username' field / Delete created user in testing username" id="a35ae31d-44ba-481c-b437-0ed78abcf075" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.040">
+    <testcase name="Response time is less than 3000ms" time="0.040" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.040" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'username' field / Create user with special characters in username field" id="6115669d-0e40-4ca5-af99-a1595e44051a" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.318">
+    <testcase name="Response time is less than 3000ms" time="0.318" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.318" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'username' field / Delete created user in testing username" id="eea7cdbe-b31d-45ca-911c-06c5255d6cbf" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.066">
+    <testcase name="Response time is less than 3000ms" time="0.066" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.066" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'username' field / Create user with non-Latin characters in username field" id="8a8b708c-ca38-4df2-a231-962ab3a0e237" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.289">
+    <testcase name="Response time is less than 3000ms" time="0.289" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.289" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'username' field / Delete created user in testing username" id="b1258309-594c-4051-9a16-a756b4dea17b" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.033">
+    <testcase name="Response time is less than 3000ms" time="0.033" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.033" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'username' field / Create user with Boolean in username field" id="492215bf-8d89-4e7d-b9a7-d5d0d9cef465" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.019">
+    <testcase name="Response time is less than 3000ms" time="0.019" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.019" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'username' field / Create user with numeric parameter in username field" id="bbd4a09a-9b2f-460e-a81f-7dcddbf74830" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'email' field / Create user with empty email field" id="18a8e56f-fcea-4099-ab19-45ea240497be" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'email' field / Create user with 1 alphabetical character in email field" id="5e1d8df5-524e-46cc-9b67-8072a4865e68" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.023">
+    <testcase name="Response time is less than 3000ms" time="0.023" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.023" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'email' field / Create user with numeric characters in email field" id="0c3672f5-38ec-429b-9561-a7406a537276" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'email' field / Create user with special characters in email field" id="47a4fa38-17be-4b05-9953-87a68d2d8dc7" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'email' field / Create user with valid format and spaces in email field" id="b3379eb8-7dfd-4f33-953a-7c3affb6b81b" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'email' field / Create user with valid format and non-Latin characters in email field" id="3d858530-5256-4e13-9ce9-30f77bbbda79" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.344">
+    <testcase name="Response time is less than 3000ms" time="0.344" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.344" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'email' field / Delete created user in testing email" id="aad5a9af-f2da-4758-84ec-e758f5578a33" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.038">
+    <testcase name="Response time is less than 3000ms" time="0.038" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.038" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'email' field / Create user with 72 characters in email field" id="b0941c7c-bd6f-4add-8b03-9c6f6f356c94" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.322">
+    <testcase name="Response time is less than 3000ms" time="0.322" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.322" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'email' field / Delete created user in testing email" id="4b50c33f-b963-48fe-a4dc-237bba32d6a4" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.041">
+    <testcase name="Response time is less than 3000ms" time="0.041" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.041" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'email' field / Create user with 73 characters in email field" id="f1758213-2c84-400a-9e21-a870e6241446" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.400">
+    <testcase name="Response time is less than 3000ms" time="0.400" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.400" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'email' field / Delete created user in testing email" id="a94621f0-d31a-4075-8f96-1df37bccabfa" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.034">
+    <testcase name="Response time is less than 3000ms" time="0.034" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.034" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'email' field / Create user with 74 characters in email field" id="b770561c-f09e-40f6-8f65-dd95ce32b165" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'email' field / Create user with invalid format in email field" id="39dfef1d-20aa-40cd-9d8b-15bcd9ee8be9" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.016">
+    <testcase name="Response time is less than 3000ms" time="0.016" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.016" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'email' field / Create user with Boolean in email field" id="4cdbe341-56e0-4a0d-9407-8b8ebf97d0fe" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'email' field / Create user with numeric parameter in email field" id="ac7dc9ed-7dfb-476d-bd3b-1087ecfae963" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'firstName' field / Create user with empty firstname field" id="e798a424-bb14-4017-86c8-824b6b87d508" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.351">
+    <testcase name="Response time is less than 3000ms" time="0.351" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.351" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'firstName' field / Delete created user in testing firstName" id="9a2793bc-1590-440c-b254-01bca0bd475a" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.037">
+    <testcase name="Response time is less than 3000ms" time="0.037" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.037" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'firstName' field / Create user with 1 alphabetical character in firstName field" id="d9b82d6d-f166-4fb2-afc5-6affd1c26911" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.325">
+    <testcase name="Response time is less than 3000ms" time="0.325" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.325" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'firstName' field / Delete created user in testing firstName" id="56123465-8721-4fb3-acf5-08c9e4c7e646" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.041">
+    <testcase name="Response time is less than 3000ms" time="0.041" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.041" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'firstName' field / Create user with 254 alphabetical characters in firstName field" id="da693889-d138-4bc9-89e7-fc42c2ed9caa" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.329">
+    <testcase name="Response time is less than 3000ms" time="0.329" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.329" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'firstName' field / Delete created user in testing firstName" id="cdf3a634-dc39-4284-b172-a5ff83586779" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.032">
+    <testcase name="Response time is less than 3000ms" time="0.032" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.032" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'firstName' field / Create user with 255 alphabetical characters in firstName field" id="49acdde3-eeae-4b02-ae0c-261daa665d97" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.311">
+    <testcase name="Response time is less than 3000ms" time="0.311" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.311" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'firstName' field / Delete created user in testing firstname" id="79c7cc42-8d15-4c6f-b978-6ec152a6aa6e" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.031">
+    <testcase name="Response time is less than 3000ms" time="0.031" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.031" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'firstName' field / Create user with 256 alphabetical characters in firstName field" id="08936a51-8cd0-4c3b-96c3-fa081672778d" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="1" errors="0" time="0.311">
+    <testcase name="Response time is less than 3000ms" time="0.311" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.311" classname="Iskakova">
+      <failure type="AssertionFailure" message="expected response to have status code 400 but got 500">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: afcd83d5-3cb3-41ba-9d4c-053a5f612a87.]]>
+        <![CDATA[Collection name: Iskakova.]]>
+        <![CDATA[Request name: lecture-1 / Testing 'firstName' field / Create user with 256 alphabetical characters in firstName field.]]>
+        <![CDATA[Test description: Status code is 400.]]>
+        <![CDATA[Error message: expected response to have status code 400 but got 500.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 400 but got 500
+   at Object.eval sandbox-script.js:1:78).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'firstName' field / Create user with spaces in firstName field" id="abe55bc0-0358-4b4a-bf2b-eaa30f33be81" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.560">
+    <testcase name="Response time is less than 3000ms" time="0.560" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.560" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'firstName' field / Delete created user in testing firstName" id="32a61dd9-1a5a-468e-b3b7-81fd0741500d" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.292">
+    <testcase name="Response time is less than 3000ms" time="0.292" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.292" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'firstName' field / Create user with numeric characters in firstName field" id="bd7bed93-f65b-40f5-8b9d-863c0b2f0038" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.381">
+    <testcase name="Response time is less than 3000ms" time="0.381" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.381" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'firstName' field / Delete created user in testing firstName" id="fe2ed179-87ea-4cdf-ab51-b926edd24a19" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.031">
+    <testcase name="Response time is less than 3000ms" time="0.031" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.031" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'firstName' field / Create user with special characters in firstName field" id="034df093-f194-4ecd-9d9c-6aecbad2328b" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.338">
+    <testcase name="Response time is less than 3000ms" time="0.338" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.338" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'firstName' field / Delete created user in testing firstName" id="5ceb1110-8060-4c34-b620-c63c2b374cb6" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.032">
+    <testcase name="Response time is less than 3000ms" time="0.032" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.032" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'firstName' field / Create user with non-Latin characters in firstName field" id="260ba1ff-7c67-4619-973b-f6dd596171b6" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.325">
+    <testcase name="Response time is less than 3000ms" time="0.325" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.325" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'firstName' field / Delete created user in testing firstName" id="6f75c21f-da9b-44a2-b1f6-306f2bb7574b" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.038">
+    <testcase name="Response time is less than 3000ms" time="0.038" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.038" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'firstName' field / Create user with Boolean in firstName field" id="6b039293-684d-4588-9e05-8f6f381655ec" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'firstName' field / Create user with numeric parameter in firstName field" id="4924b0cd-24fd-4472-8d54-7a3724ab3d80" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'lastName' field / Create user with empty lastname field" id="a3fc9f1a-a0e1-446e-b1bb-8f0a245ad493" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.342">
+    <testcase name="Response time is less than 3000ms" time="0.342" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.342" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'lastName' field / Delete created user in testing lastname" id="b4ea6eaa-9f24-4a59-b1d4-24b9dd3cb6ef" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.032">
+    <testcase name="Response time is less than 3000ms" time="0.032" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.032" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'lastName' field / Create user with 1 alphabetical character in lastName field" id="f882567d-3666-4303-a873-af9898bf6a58" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.338">
+    <testcase name="Response time is less than 3000ms" time="0.338" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.338" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'lastName' field / Delete created user in testing lastName" id="f505432e-c281-4dd0-a427-8d7409d07b83" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.032">
+    <testcase name="Response time is less than 3000ms" time="0.032" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.032" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'lastName' field / Create user with 254 alphabetical characters in lastName field" id="0e4e4224-ccf5-418a-9002-f737d6c16395" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.326">
+    <testcase name="Response time is less than 3000ms" time="0.326" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.326" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'lastName' field / Delete created user in testing lastName" id="b127be2f-3d08-4b4b-91bd-ad492b0a0b11" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.068">
+    <testcase name="Response time is less than 3000ms" time="0.068" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.068" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'lastName' field / Create user with 255 alphabetical characters in lastName field" id="a3ab2011-41e6-4652-b281-57c1f8c40f06" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.371">
+    <testcase name="Response time is less than 3000ms" time="0.371" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.371" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'lastName' field / Delete created user in testing lastName" id="0789957f-7933-4c68-8cbd-34061578b47f" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.034">
+    <testcase name="Response time is less than 3000ms" time="0.034" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.034" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'lastName' field / Create user with 256 alphabetical characters in lastName field" id="615cd20c-d46c-469d-ab91-e7c94c62eb2f" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="1" errors="0" time="0.354">
+    <testcase name="Response time is less than 3000ms" time="0.354" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.354" classname="Iskakova">
+      <failure type="AssertionFailure" message="expected response to have status code 400 but got 500">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: afcd83d5-3cb3-41ba-9d4c-053a5f612a87.]]>
+        <![CDATA[Collection name: Iskakova.]]>
+        <![CDATA[Request name: lecture-1 / Testing 'lastName' field / Create user with 256 alphabetical characters in lastName field.]]>
+        <![CDATA[Test description: Status code is 400.]]>
+        <![CDATA[Error message: expected response to have status code 400 but got 500.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 400 but got 500
+   at Object.eval sandbox-script.js:1:97).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'lastName' field / Create user with spaces in lastName field" id="2221c544-247f-437d-a357-3b91b835b26c" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.354">
+    <testcase name="Response time is less than 3000ms" time="0.354" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.354" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'lastName' field / Delete created user in testing lastName" id="39810db5-8169-410c-a9d3-008d4e41528d" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.034">
+    <testcase name="Response time is less than 3000ms" time="0.034" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.034" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'lastName' field / Create user with numeric characters in lastName field" id="a59d5f00-d6e7-4e55-ba15-c29c95feb7f6" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.338">
+    <testcase name="Response time is less than 3000ms" time="0.338" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.338" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'lastName' field / Delete created user in testing lastName" id="c79f521e-9ff6-4304-8266-efc0308f1471" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.036">
+    <testcase name="Response time is less than 3000ms" time="0.036" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.036" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'lastName' field / Create user with special characters in lastName field" id="1faaaa69-1859-4195-a674-37df82a1834b" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.311">
+    <testcase name="Response time is less than 3000ms" time="0.311" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.311" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'lastName' field / Delete created user in testing lastName" id="2f48daa9-60b3-458d-a6b5-f631b6ae9993" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.032">
+    <testcase name="Response time is less than 3000ms" time="0.032" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.032" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'lastName' field / Create user with non-Latin characters in lastName field" id="2c4f60c4-77a9-4834-8476-a438e886b620" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.346">
+    <testcase name="Response time is less than 3000ms" time="0.346" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.346" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'lastName' field / Delete created user in testing lastName" id="cdf23460-806e-4e7d-b4c9-909c784d100a" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.412">
+    <testcase name="Response time is less than 3000ms" time="0.412" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.412" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'lastName' field / Create user with Boolean in lastName field" id="b642769e-7567-40bd-9604-e1436ed7e4ee" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.016">
+    <testcase name="Response time is less than 3000ms" time="0.016" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.016" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'lastName' field / Create user with numeric parameter in lastName field" id="8de797a0-e75b-460c-b20b-f9d541bf6b5b" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.016">
+    <testcase name="Response time is less than 3000ms" time="0.016" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.016" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'password' field / Create user with empty password field" id="93515282-301c-4d58-8922-c63e50a6506a" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'password' field / Create user with 7 alphabetical characters password field" id="e1756035-4afc-4ecc-8a5d-2212e54b1b72" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'password' field / Create user with 8 alphabetical characters password field" id="ed78e52b-4e8c-4ba6-8a61-83ebc6fc14a2" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.280">
+    <testcase name="Response time is less than 3000ms" time="0.280" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.280" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'password' field / Delete created user in testing password" id="14771592-45fe-4a96-a6c0-629af1e379b0" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.032">
+    <testcase name="Response time is less than 3000ms" time="0.032" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.032" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'password' field / Create user with 9 alphabetical characters password field" id="4f5569a1-5f38-4161-8a29-6f663c736943" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.318">
+    <testcase name="Response time is less than 3000ms" time="0.318" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.318" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'password' field / Delete created user in testing password" id="0cde014b-650e-4e8f-9c37-acd9807b53d4" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.032">
+    <testcase name="Response time is less than 3000ms" time="0.032" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.032" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'password' field / Create user with 19 alphabetical characters password field" id="2c48c488-edcc-47d6-8cc9-e51f2c1f935b" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.327">
+    <testcase name="Response time is less than 3000ms" time="0.327" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.327" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'password' field / Delete created user in testing password" id="704961cd-919b-4f6c-93ec-3855da013d5a" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.032">
+    <testcase name="Response time is less than 3000ms" time="0.032" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.032" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'password' field / Create user with 20 alphabetical characters password field" id="78beefa9-a236-451e-b637-3dd764578130" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.326">
+    <testcase name="Response time is less than 3000ms" time="0.326" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.326" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'password' field / Delete created user in testing password" id="96539a0c-39c5-4bba-872a-a943e50b38c7" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.033">
+    <testcase name="Response time is less than 3000ms" time="0.033" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.033" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'password' field / Create user with 21 alphabetical characters password field" id="5d5ab9c8-9896-4f13-8386-c15fb3c2fa2d" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'password' field / Create user with numeric characters in password field" id="3996a5b0-4ad0-4fdc-b6d5-5c0de1e317da" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.288">
+    <testcase name="Response time is less than 3000ms" time="0.288" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.288" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'password' field / Delete created user in testing password" id="ba72b9ae-f3a0-41f1-81c4-09413da409b0" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.033">
+    <testcase name="Response time is less than 3000ms" time="0.033" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.033" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'password' field / Create user with special characters in password field" id="e3a400da-05de-421e-9498-0d15345df882" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.330">
+    <testcase name="Response time is less than 3000ms" time="0.330" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.330" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'password' field / Delete created user in testing password" id="26ed2bae-fc98-4d4c-9abb-15b4c2b17efe" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.033">
+    <testcase name="Response time is less than 3000ms" time="0.033" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.033" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'password' field / Create user with non-Latin characters in password field" id="7564a741-f7cb-49f6-826c-15413e890c65" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.909">
+    <testcase name="Response time is less than 3000ms" time="0.909" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.909" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'password' field / Delete created user in testing password" id="c538b8e3-23c0-4a50-a8ea-dd2cf3809657" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.038">
+    <testcase name="Response time is less than 3000ms" time="0.038" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.038" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'password' field / Create user with Boolean in password field" id="8fc2522d-50f3-494b-822c-8d4eda3041f6" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'password' field / Create user with numeric parameter in password field" id="7d0c3367-6886-4d93-b01f-573565148f58" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.016">
+    <testcase name="Response time is less than 3000ms" time="0.016" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.016" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'role' field / Create user with empty role field" id="57954580-d550-4558-a3c0-b5c08d413292" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'role' field / Create user with 1 in role field" id="6d67da6d-181a-41f0-a272-47bab8a54bb5" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="1" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.017" classname="Iskakova">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: afcd83d5-3cb3-41ba-9d4c-053a5f612a87.]]>
+        <![CDATA[Collection name: Iskakova.]]>
+        <![CDATA[Request name: lecture-1 / Testing 'role' field / Create user with 1 in role field.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 400
+   at Object.eval sandbox-script.js:1:128).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'role' field / Create user with 2 in role field" id="79b2aa5b-7bce-48da-a549-7a0f88e190a7" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="1" errors="0" time="0.018">
+    <testcase name="Response time is less than 3000ms" time="0.018" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.018" classname="Iskakova">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: afcd83d5-3cb3-41ba-9d4c-053a5f612a87.]]>
+        <![CDATA[Collection name: Iskakova.]]>
+        <![CDATA[Request name: lecture-1 / Testing 'role' field / Create user with 2 in role field.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 400
+   at Object.eval sandbox-script.js:1:129).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'role' field / Create user with 3 in role field" id="4ef260d0-0fe0-45f8-ab1b-bc46962bb70c" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="1" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.017" classname="Iskakova">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: afcd83d5-3cb3-41ba-9d4c-053a5f612a87.]]>
+        <![CDATA[Collection name: Iskakova.]]>
+        <![CDATA[Request name: lecture-1 / Testing 'role' field / Create user with 3 in role field.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 400
+   at Object.eval sandbox-script.js:1:130).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'role' field / Create user with 0 in role field" id="a7c582b8-8795-4692-aac1-ca61a427ccba" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.022">
+    <testcase name="Response time is less than 3000ms" time="0.022" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.022" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'role' field / Create a new admin with another admin credentials" id="235e23b3-1593-44af-b41a-42fa20f15e0e" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.350">
+    <testcase name="Response time is less than 3000ms" time="0.350" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.350" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'role' field / Create a new admin without another admin credentials" id="c439360c-b6ad-4244-a9af-4f53b2727c89" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.063">
+    <testcase name="Response time is less than 3000ms" time="0.063" classname="Iskakova"/>
+    <testcase name="Status code is 401" time="0.063" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'role' field / Create a new admin with teacher credentials" id="119b7bc5-9847-4717-a56a-d249143c1da9" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.079">
+    <testcase name="Response time is less than 3000ms" time="0.079" classname="Iskakova"/>
+    <testcase name="Status code is 403" time="0.079" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'role' field / Create a new admin with student credentials" id="67af8553-f373-4fd2-ab99-69742f081d8f" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.079">
+    <testcase name="Response time is less than 3000ms" time="0.079" classname="Iskakova"/>
+    <testcase name="Status code is 403" time="0.079" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'role' field / Create Teacher without any credentials" id="ac2f063e-0486-4238-a031-40d77faf01a4" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.595">
+    <testcase name="Response time is less than 3000ms" time="0.595" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.595" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'role' field / Create Teacher with student credentials" id="023eb7c1-d181-4d9c-b3ba-c25d5a2f94f8" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.374">
+    <testcase name="Response time is less than 3000ms" time="0.374" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.374" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'role' field / Create Student without any credentials" id="fe39c61a-329e-4f28-875c-fc8afdc2d47a" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.304">
+    <testcase name="Response time is less than 3000ms" time="0.304" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.304" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'role' field / Create Student with teacher credentials" id="284a76ae-d0f6-4d2a-af35-093b398f41cb" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.380">
+    <testcase name="Response time is less than 3000ms" time="0.380" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.380" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-1 / Testing 'role' field / Create user with Boolean in role field" id="6ae1b688-6254-4da3-a765-9c3e07482600" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / As a user with a teacher role / Create teacher" id="dff30e99-4fcb-403e-8bec-2a7a618b8c07" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.328">
+    <testcase name="Response time is less than 3000ms" time="0.328" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.328" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / As a user with a teacher role / Login as a teacher" id="63ab6852-5b61-4955-999f-e342100abc69" timestamp="2023-09-18T07:56:23.210Z" tests="4" failures="0" errors="0" time="0.371">
+    <testcase name="Response time is less than 3000ms" time="0.371" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.371" classname="Iskakova"/>
+    <testcase name="Response has the required field - accessToken" time="0.371" classname="Iskakova"/>
+    <testcase name="Verify that the access token is stored in the environment variable 'token.teacher'" time="0.371" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / As a user with a teacher role / Add a course as a teacher" id="f90bda0a-ae48-4aff-bf5c-f5791a14f241" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.054">
+    <testcase name="Response time is less than 3000ms" time="0.054" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.054" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / As a user with a teacher role / Add a test course" id="4c87842e-d3af-450c-bc67-ea6bdea09b23" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.065">
+    <testcase name="Response time is less than 3000ms" time="0.065" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.065" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / As a user with a teacher role / Change a course" id="fe0cb2d4-4c04-4596-8b18-a8140aa149ca" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.037">
+    <testcase name="Response time is less than 3000ms" time="0.037" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.037" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / As a user with a teacher role / Get list of courses" id="74aa772c-45bd-4388-b003-c188d4ed41f6" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.278">
+    <testcase name="Response time is less than 3000ms" time="0.278" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.278" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / As a user with a teacher role / Get course by id" id="178b4d9d-0a7b-45bb-b004-5a82d31f38d4" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.031">
+    <testcase name="Response time is less than 3000ms" time="0.031" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.031" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / As a user with a teacher role / Get created courses" id="c54dcd18-96db-410d-a32c-fe5a7e996fd9" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.020">
+    <testcase name="Response time is less than 3000ms" time="0.020" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.020" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / As a user with a teacher role / Enroll the course as a teacher" id="4be00ee5-ea96-4d39-a60b-06225d2baec2" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.021">
+    <testcase name="Response time is less than 3000ms" time="0.021" classname="Iskakova"/>
+    <testcase name="Status code is 403" time="0.021" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / As a user with a teacher role / Delete test course" id="6d44b0a7-22db-47f1-869d-b8a9dd2ee2d9" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.039">
+    <testcase name="Response time is less than 3000ms" time="0.039" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.039" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / As a user with a student role / Create student" id="1d1752d7-3ebc-4cc1-bb13-1510cce279ca" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.276">
+    <testcase name="Response time is less than 3000ms" time="0.276" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.276" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / As a user with a student role / Login as a student" id="5c8825c6-d487-43a7-ac8f-7e328215d081" timestamp="2023-09-18T07:56:23.210Z" tests="4" failures="0" errors="0" time="0.367">
+    <testcase name="Response time is less than 3000ms" time="0.367" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.367" classname="Iskakova"/>
+    <testcase name="Response has the required field - accessToken" time="0.367" classname="Iskakova"/>
+    <testcase name="Verify that the access token is stored in the environment variable 'token.teacher'" time="0.367" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / As a user with a student role / Add a course as a student" id="616ea6df-4940-4d1d-b0cb-d4b77978f3b6" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.024">
+    <testcase name="Response time is less than 3000ms" time="0.024" classname="Iskakova"/>
+    <testcase name="Status code is 403" time="0.024" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / As a user with a student role / Change a course as a student" id="15d4e55f-0bb0-4589-93f3-7ee29a746f65" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.020">
+    <testcase name="Response time is less than 3000ms" time="0.020" classname="Iskakova"/>
+    <testcase name="Status code is 403" time="0.020" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / As a user with a student role / Get the list of courses" id="e53463c7-752e-4ba0-a80c-d35c5105ac4f" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.323">
+    <testcase name="Response time is less than 3000ms" time="0.323" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.323" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / As a user with a student role / Get course by id" id="4447ea38-892e-469e-9130-d25fc3c9df92" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.029">
+    <testcase name="Response time is less than 3000ms" time="0.029" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.029" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / As a user with a student role / Enroll the course" id="6ede1923-b3bf-412b-a057-5556256ec58b" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.040">
+    <testcase name="Response time is less than 3000ms" time="0.040" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.040" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / As a user with a student role / Get enrolled courses" id="9d4d11f4-ec39-4b78-8ebe-3e53651de4a7" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.021">
+    <testcase name="Response time is less than 3000ms" time="0.021" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.021" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / As a user with a student role / Dislike course" id="c7a79cf1-c970-4deb-8aef-f4e1321effe9" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.050">
+    <testcase name="Response time is less than 3000ms" time="0.050" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.050" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / As a user with a student role / Leave the course" id="fcd53be2-2629-49df-9539-438a664d8940" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.032">
+    <testcase name="Response time is less than 3000ms" time="0.032" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.032" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / As a user with a student role / Delete course as a student" id="3964936a-2b35-4f84-8ca5-73538dc98ac8" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.021">
+    <testcase name="Response time is less than 3000ms" time="0.021" classname="Iskakova"/>
+    <testcase name="Status code is 403" time="0.021" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course unauthorized" id="6ed99738-6e2d-4111-a998-189c972c2784" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.018">
+    <testcase name="Response time is less than 3000ms" time="0.018" classname="Iskakova"/>
+    <testcase name="Status code is 401" time="0.018" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course with empty title  as a teacher" id="c17f06a0-acac-4819-8968-38c4b079eb72" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.277">
+    <testcase name="Response time is less than 3000ms" time="0.277" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.277" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course with 1 character in title" id="49c89e23-f3c6-464f-88d7-2b8d5fead038" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.018">
+    <testcase name="Response time is less than 3000ms" time="0.018" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.018" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course with 2 characters in title" id="74ed4e0c-b7e9-41d2-b85a-dcf6dfdb3328" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.018">
+    <testcase name="Response time is less than 3000ms" time="0.018" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.018" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course with special characters in title" id="ca4f9393-a397-45c0-9ca1-f738c05b6294" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.047">
+    <testcase name="Response time is less than 3000ms" time="0.047" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.047" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course with 99 characters in title" id="f7a0aecb-82c1-4798-b7d5-d489d27573b6" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.046">
+    <testcase name="Response time is less than 3000ms" time="0.046" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.046" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course with 100 characters in title" id="ab36de9d-cf1e-4f56-a0bf-b6c431563423" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.045">
+    <testcase name="Response time is less than 3000ms" time="0.045" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.045" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course with title more than 100 characters" id="14ab8c91-a11f-4797-a6c6-168cb527aea3" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.019">
+    <testcase name="Response time is less than 3000ms" time="0.019" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.019" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course with empty description as a teacher" id="3682b9e8-ceb7-499d-b4fc-8d8bbc84b08a" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.019">
+    <testcase name="Response time is less than 3000ms" time="0.019" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.019" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course with 1 character in description" id="2fedde36-63c5-4c35-8b33-80c669192f3e" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.019">
+    <testcase name="Response time is less than 3000ms" time="0.019" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.019" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course with 2 characters in description" id="4398f4d9-7d64-43a8-8af2-26c4975a6bc7" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.021">
+    <testcase name="Response time is less than 3000ms" time="0.021" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.021" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course with special character in description" id="f72276b6-7bf8-44d4-abbe-5f7ddd6ae2bf" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.045">
+    <testcase name="Response time is less than 3000ms" time="0.045" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.045" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course with 499 characters in description" id="7a201e6e-0c25-4dfe-86ea-70bd17be66fe" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.044">
+    <testcase name="Response time is less than 3000ms" time="0.044" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.044" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course with 500 characters in description" id="448f4e51-78e5-40d7-89cd-b4425cab0040" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.048">
+    <testcase name="Response time is less than 3000ms" time="0.048" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.048" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course with more than 500 characters in description" id="08b40ccb-be5c-4e1a-8fcf-0862a2964636" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.019">
+    <testcase name="Response time is less than 3000ms" time="0.019" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.019" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course with boolean in description" id="1cbb6efb-62bd-42d3-9de5-63359abd3013" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.022">
+    <testcase name="Response time is less than 3000ms" time="0.022" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.022" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course with empty visible as a teacher" id="e61d59c1-c9ab-4746-b715-9af98f243c5d" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.016">
+    <testcase name="Response time is less than 3000ms" time="0.016" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.016" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course with false visible as a teacher" id="0bc372d9-a47b-47e7-8a39-105cefc78903" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.046">
+    <testcase name="Response time is less than 3000ms" time="0.046" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.046" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course with zero value in visible" id="6ff98ca0-5889-403c-8d87-8e0ac9f59f41" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="1" errors="0" time="0.048">
+    <testcase name="Response time is less than 3000ms" time="0.048" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.048" classname="Iskakova">
+      <failure type="AssertionFailure" message="expected response to have status code 400 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: afcd83d5-3cb3-41ba-9d4c-053a5f612a87.]]>
+        <![CDATA[Collection name: Iskakova.]]>
+        <![CDATA[Request name: lecture-2 / Testing / Add a course with zero value in visible.]]>
+        <![CDATA[Test description: Status code is 400.]]>
+        <![CDATA[Error message: expected response to have status code 400 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 400 but got 200
+   at Object.eval sandbox-script.js:1:180).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course with 1 value in visible" id="9cd30c1b-0ce5-4920-98fc-81cb16c4d0e0" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="1" errors="0" time="0.047">
+    <testcase name="Response time is less than 3000ms" time="0.047" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.047" classname="Iskakova">
+      <failure type="AssertionFailure" message="expected response to have status code 400 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: afcd83d5-3cb3-41ba-9d4c-053a5f612a87.]]>
+        <![CDATA[Collection name: Iskakova.]]>
+        <![CDATA[Request name: lecture-2 / Testing / Add a course with 1 value in visible.]]>
+        <![CDATA[Test description: Status code is 400.]]>
+        <![CDATA[Error message: expected response to have status code 400 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 400 but got 200
+   at Object.eval sandbox-script.js:1:181).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course with 2 value in visible field" id="75def936-2372-415d-80b0-97e6aae31a6a" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.022">
+    <testcase name="Response time is less than 3000ms" time="0.022" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.022" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course with &quot;yes&quot; in visible field" id="c9fafa83-8a6a-4e7d-9e3a-59d40a2a2975" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.019">
+    <testcase name="Response time is less than 3000ms" time="0.019" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.019" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course no category id as a teacher" id="1a1aac0b-3c54-4a8a-bc05-70dafc9f1844" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Add a course to the category that does not exist" id="13e0fd4d-151c-473d-8675-11cc855d28d6" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.018">
+    <testcase name="Response time is less than 3000ms" time="0.018" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.018" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Change a course unauthorized" id="17956eb0-501a-4e45-b528-c4be68ba4fdb" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.026">
+    <testcase name="Response time is less than 3000ms" time="0.026" classname="Iskakova"/>
+    <testcase name="Status code is 401" time="0.026" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Change a course as a teacher created by another teacher" id="3a5fd4dc-661b-4d4f-a27b-6a5cbb1c9d8b" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.035">
+    <testcase name="Response time is less than 3000ms" time="0.035" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.035" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Change a course that do not exist" id="c4e29865-b242-4123-813c-db6f8a05de1c" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.024">
+    <testcase name="Response time is less than 3000ms" time="0.024" classname="Iskakova"/>
+    <testcase name="Status code is 404" time="0.024" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Change a course no id" id="4fb75943-2119-4fa8-9d12-ed67b8b31330" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Change a course category" id="3b565845-7778-481a-beaf-161b4333760a" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.042">
+    <testcase name="Response time is less than 3000ms" time="0.042" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.042" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Change a course no category" id="9cc87198-40ef-4e6a-933d-543c8c7a2bb4" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.019">
+    <testcase name="Response time is less than 3000ms" time="0.019" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.019" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Change a course category to non existed/random category" id="e8de4582-ce9e-46af-ad03-ad5ee36252ca" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.018">
+    <testcase name="Response time is less than 3000ms" time="0.018" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.018" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Get list of courses unauthorized" id="5ca63272-ae52-42c6-81ba-4d22d9fa5275" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 401" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Get course by id unauthorized" id="515f42b9-642e-4e2a-8bfb-92cc853ec6fd" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 401" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Get course by id negative value" id="03e21aa5-f6f4-42d2-a7a0-360679b115cb" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.016">
+    <testcase name="Response time is less than 3000ms" time="0.016" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.016" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Get course by id zero value" id="8cb1da0c-3f14-4624-b89d-f9f42981488c" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.028">
+    <testcase name="Response time is less than 3000ms" time="0.028" classname="Iskakova"/>
+    <testcase name="Status code is 404" time="0.028" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Get non existed course by id" id="37f7019f-b6b1-4abe-b09c-19479f41c86f" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.020">
+    <testcase name="Response time is less than 3000ms" time="0.020" classname="Iskakova"/>
+    <testcase name="Status code is 404" time="0.020" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Get created courses unauthorized" id="233a8afe-372a-467e-ab0c-6586bbfd3cbc" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.017">
+    <testcase name="Response time is less than 3000ms" time="0.017" classname="Iskakova"/>
+    <testcase name="Status code is 401" time="0.017" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Enroll the random ID course" id="fea61ca4-b338-4d07-bcc4-3ef0868110f1" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.018">
+    <testcase name="Response time is less than 3000ms" time="0.018" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.018" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Enroll the course unauthorized" id="dfdcdbd8-e047-4c76-a9ca-2e304f71cd80" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.018">
+    <testcase name="Response time is less than 3000ms" time="0.018" classname="Iskakova"/>
+    <testcase name="Status code is 401" time="0.018" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Enroll the course with negative ID" id="d767dabc-8e9d-4e45-b846-96dd42f6f752" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.018">
+    <testcase name="Response time is less than 3000ms" time="0.018" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.018" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Enroll the course with zero value ID" id="5e6c1d95-c131-456f-9aa4-a55dd2875a9a" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.020">
+    <testcase name="Response time is less than 3000ms" time="0.020" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.020" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Enroll the course that does not exist" id="71b0a0d8-a18f-4533-a8d3-fe73323ab8d2" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.018">
+    <testcase name="Response time is less than 3000ms" time="0.018" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.018" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Delete course unauthorized" id="494459a6-3cf9-4ec7-931f-188afe346761" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.019">
+    <testcase name="Response time is less than 3000ms" time="0.019" classname="Iskakova"/>
+    <testcase name="Status code is 401" time="0.019" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Delete course not specified" id="c71e093b-7c84-4dae-9ac4-fdc2d95228d1" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.016">
+    <testcase name="Response time is less than 3000ms" time="0.016" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.016" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Delete course negative value" id="691b1866-cbdc-43b5-b189-39e6586e7ac8" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.016">
+    <testcase name="Response time is less than 3000ms" time="0.016" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.016" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Delete course zero value" id="7c81c92f-2f81-4d77-a663-3138e8984afa" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.018">
+    <testcase name="Response time is less than 3000ms" time="0.018" classname="Iskakova"/>
+    <testcase name="Status code is 400" time="0.018" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Delete non existed course" id="8580f2f8-c2ab-443c-85a1-db546ce146c4" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="1" errors="0" time="0.022">
+    <testcase name="Response time is less than 3000ms" time="0.022" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.022" classname="Iskakova">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 403">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: afcd83d5-3cb3-41ba-9d4c-053a5f612a87.]]>
+        <![CDATA[Collection name: Iskakova.]]>
+        <![CDATA[Request name: lecture-2 / Testing / Delete non existed course.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 403.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 403
+   at Object.eval sandbox-script.js:1:208).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / Testing / Delete random course" id="754e3e7a-7624-4f29-abfc-520d9bd8469f" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="1" errors="0" time="0.025">
+    <testcase name="Response time is less than 3000ms" time="0.025" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.025" classname="Iskakova">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: afcd83d5-3cb3-41ba-9d4c-053a5f612a87.]]>
+        <![CDATA[Collection name: Iskakova.]]>
+        <![CDATA[Request name: lecture-2 / Testing / Delete random course.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 400
+   at Object.eval sandbox-script.js:1:209).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to ban and unban users / Login as an admin" id="41665dcf-4fa0-4515-9fdc-afc765a97fda" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.336">
+    <testcase name="Response time is less than 3000ms" time="0.336" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.336" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to ban and unban users / Get list of teachers" id="3e17bcd7-e9fb-47c4-b0fc-9430a3340d92" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.096">
+    <testcase name="Response time is less than 3000ms" time="0.096" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.096" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to ban and unban users / Ban a user" id="1d8c5abf-bedb-46f8-9b20-612215a1e687" timestamp="2023-09-18T07:56:23.210Z" tests="4" failures="0" errors="0" time="0.043">
+    <testcase name="Response time is less than 3000ms" time="0.043" classname="Iskakova"/>
+    <testcase name="Response status code is 200" time="0.043" classname="Iskakova"/>
+    <testcase name="Validate result field is not empty" time="0.043" classname="Iskakova"/>
+    <testcase name="Verify that 'isBanned' is set to true" time="0.043" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to ban and unban users / Get list of banned users to check if user is banned" id="50f1b47d-f175-4868-892d-df7c44cdc339" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.021">
+    <testcase name="Response time is less than 3000ms" time="0.021" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.021" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to ban and unban users / Unban a user" id="8ff0d1ae-f8ae-46c6-b81c-7a42b02e9c8a" timestamp="2023-09-18T07:56:23.210Z" tests="3" failures="0" errors="0" time="0.038">
+    <testcase name="Response time is less than 3000ms" time="0.038" classname="Iskakova"/>
+    <testcase name="Response status code is 200" time="0.038" classname="Iskakova"/>
+    <testcase name="Validate result field is not empty" time="0.038" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to ban and unban users / Get list of banned users to manually check if user is unbanned" id="c680baed-7a27-4812-84f6-15296fbcf819" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.021">
+    <testcase name="Response time is less than 3000ms" time="0.021" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.021" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As a teacher I want to create course materials / Admin create a category" id="a18c343c-6adf-495d-b628-7f17d5496354" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.033">
+    <testcase name="Response time is less than 3000ms" time="0.033" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.033" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As a teacher I want to create course materials / Create teacher" id="e73e074c-9b6d-4057-8adc-16fbd3c90863" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.347">
+    <testcase name="Response time is less than 3000ms" time="0.347" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.347" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As a teacher I want to create course materials / Login as a teacher" id="c2f2fc10-b30a-42db-a786-54eb94229df7" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.367">
+    <testcase name="Response time is less than 3000ms" time="0.367" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.367" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As a teacher I want to create course materials / Add a course as a teacher" id="d70ded90-caac-47fa-b43c-6456bdc7e314" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.049">
+    <testcase name="Response time is less than 3000ms" time="0.049" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.049" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As a teacher I want to create course materials / Add a course material as a teacher" id="4cb9077b-1a58-48d6-8aed-290ae3e5abb5" timestamp="2023-09-18T07:56:23.210Z" tests="7" failures="0" errors="0" time="0.042">
+    <testcase name="Response time is less than 3000ms" time="0.042" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.042" classname="Iskakova"/>
+    <testcase name="Response is an object with id property" time="0.042" classname="Iskakova"/>
+    <testcase name="Response is an object with title property" time="0.042" classname="Iskakova"/>
+    <testcase name="Response is an object with data property" time="0.042" classname="Iskakova"/>
+    <testcase name="Response is an object with order property" time="0.042" classname="Iskakova"/>
+    <testcase name="Response is an object with courseId property" time="0.042" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As a student I want to dislike and leave the course / Create Student" id="7f25bea3-962f-4d35-b663-79cb503fd812" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.346">
+    <testcase name="Response time is less than 3000ms" time="0.346" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.346" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As a student I want to dislike and leave the course / Login as a student" id="e71a03eb-92f6-4460-b905-e9431c62034d" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.369">
+    <testcase name="Response time is less than 3000ms" time="0.369" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.369" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As a student I want to dislike and leave the course / Enroll the course" id="eccff9f1-41ba-4d21-8b3e-abbd27a1ddc6" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.039">
+    <testcase name="Response time is less than 3000ms" time="0.039" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.039" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As a student I want to dislike and leave the course / Get enrolled courses" id="adbe617a-f85d-457a-8b38-f685304b0209" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.022">
+    <testcase name="Response time is less than 3000ms" time="0.022" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.022" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As a student I want to dislike and leave the course / Dislike course" id="3eb94277-d9ab-4b39-b65f-0a7eb562e3fe" timestamp="2023-09-18T07:56:23.210Z" tests="3" failures="0" errors="0" time="0.039">
+    <testcase name="Response time is less than 3000ms" time="0.039" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.039" classname="Iskakova"/>
+    <testcase name="Body matches string" time="0.039" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As a student I want to dislike and leave the course / Leave the course" id="0aaec4d9-2983-4c19-b0cb-6e08ecc129a0" timestamp="2023-09-18T07:56:23.210Z" tests="3" failures="0" errors="0" time="0.045">
+    <testcase name="Response time is less than 3000ms" time="0.045" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.045" classname="Iskakova"/>
+    <testcase name="Body matches string" time="0.045" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As a student I want to dislike and leave the course / Get enrolled courses" id="900082b8-14d0-4ac0-a5ab-cef57e6de765" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.021">
+    <testcase name="Response time is less than 3000ms" time="0.021" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.021" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to update category / Login as an admin" id="14440bec-51a2-4d46-b49d-d28054b2604e" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.312">
+    <testcase name="Response time is less than 3000ms" time="0.312" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.312" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to update category / Create a category" id="4bdf98a8-5be1-46c2-a141-8de2663299dc" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.033">
+    <testcase name="Response time is less than 3000ms" time="0.033" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.033" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to update category / Get list of categories" id="e6217df1-1d3f-40a6-920a-dc4133ca01cd" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.046">
+    <testcase name="Response time is less than 3000ms" time="0.046" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.046" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to update category / Change the category as an admin" id="3c077369-3c39-47a0-877e-ce0505d13e4f" timestamp="2023-09-18T07:56:23.210Z" tests="3" failures="0" errors="0" time="0.036">
+    <testcase name="Response time is less than 3000ms" time="0.036" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.036" classname="Iskakova"/>
+    <testcase name="Response is an object with id and title properties" time="0.036" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to update category / Get list of categories" id="b1a266a7-50a6-4517-a58c-0be532ee4609" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.024">
+    <testcase name="Response time is less than 3000ms" time="0.024" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.024" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to change other users information / Login as an admin" id="97f1c091-35da-4dde-b125-5976c7b5ccc8" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.626">
+    <testcase name="Response time is less than 3000ms" time="0.626" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.626" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to change other users information / Get list of teachers" id="65cefcfd-39fc-4399-ac9a-229742529926" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.608">
+    <testcase name="Response time is less than 3000ms" time="0.608" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.608" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to change other users information / Change Information" id="a8075b53-f812-41da-abc7-6961ec36ba81" timestamp="2023-09-18T07:56:23.210Z" tests="3" failures="0" errors="0" time="0.436">
+    <testcase name="Response time is less than 3000ms" time="0.436" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.436" classname="Iskakova"/>
+    <testcase name="Response is an object with id, username, email, firstName, lastName, and role properties" time="0.436" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to change other users information / Get list of teachers" id="1435252e-2fb1-4161-88b0-24d633e1d7d0" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.067">
+    <testcase name="Response time is less than 3000ms" time="0.067" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.067" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to change other users information / Teacher can not change other user information" id="bbe8febe-56e1-44e5-a7d0-588592b2442d" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.036">
+    <testcase name="Response time is less than 3000ms" time="0.036" classname="Iskakova"/>
+    <testcase name="Status code is 403" time="0.036" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to change other users information / Student can not change other user information" id="4f8367bb-9d5d-4a24-9d33-a961ec6777bb" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.021">
+    <testcase name="Response time is less than 3000ms" time="0.021" classname="Iskakova"/>
+    <testcase name="Status code is 403" time="0.021" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to change other users information / Delete user" id="11c776a6-ec97-42c1-ba55-8acf1f967777" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.039">
+    <testcase name="Response time is less than 3000ms" time="0.039" classname="Iskakova"/>
+    <testcase name="Response status code is 200" time="0.039" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to change other users roles / Login as an admin" id="50227713-1283-42a9-9425-595a483758c7" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.261">
+    <testcase name="Response time is less than 3000ms" time="0.261" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.261" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to change other users roles / Get list of teachers" id="d316ad98-44c8-47b4-8878-676d01e3ed86" timestamp="2023-09-18T07:56:23.210Z" tests="2" failures="0" errors="0" time="0.091">
+    <testcase name="Response time is less than 3000ms" time="0.091" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.091" classname="Iskakova"/>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to change other users roles / Change role to 1" id="56d72ccd-aacf-437a-8c29-44d79cf1a7e9" timestamp="2023-09-18T07:56:23.210Z" tests="3" failures="1" errors="0" time="0.038">
+    <testcase name="Response time is less than 3000ms" time="0.038" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.038" classname="Iskakova"/>
+    <testcase name="Response has role equal to 1" time="0.038" classname="Iskakova">
+      <failure type="AssertionFailure" message="expected 2 to equal 1">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: afcd83d5-3cb3-41ba-9d4c-053a5f612a87.]]>
+        <![CDATA[Collection name: Iskakova.]]>
+        <![CDATA[Request name: lecture-3 / As an admin I want to change other users roles / Change role to 1.]]>
+        <![CDATA[Test description: Response has role equal to 1.]]>
+        <![CDATA[Error message: expected 2 to equal 1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 2 to equal 1
+   at Object.eval sandbox-script.js:2:242).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to change other users roles / Change role to student" id="005de4c9-6b4d-400c-bd77-f2dd30f72f6d" timestamp="2023-09-18T07:56:23.210Z" tests="3" failures="1" errors="0" time="0.034">
+    <testcase name="Response time is less than 3000ms" time="0.034" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.034" classname="Iskakova"/>
+    <testcase name="Response has role equal to 1" time="0.034" classname="Iskakova">
+      <failure type="AssertionFailure" message="expected 2 to equal 1">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: afcd83d5-3cb3-41ba-9d4c-053a5f612a87.]]>
+        <![CDATA[Collection name: Iskakova.]]>
+        <![CDATA[Request name: lecture-3 / As an admin I want to change other users roles / Change role to student.]]>
+        <![CDATA[Test description: Response has role equal to 1.]]>
+        <![CDATA[Error message: expected 2 to equal 1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 2 to equal 1
+   at Object.eval sandbox-script.js:2:243).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to change other users roles / Change role to 3" id="2d18a374-10d7-4e5b-9e61-e6f2e082ba6d" timestamp="2023-09-18T07:56:23.210Z" tests="3" failures="1" errors="0" time="0.039">
+    <testcase name="Response time is less than 3000ms" time="0.039" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.039" classname="Iskakova"/>
+    <testcase name="Response has role equal to 3" time="0.039" classname="Iskakova">
+      <failure type="AssertionFailure" message="expected 2 to equal 3">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: afcd83d5-3cb3-41ba-9d4c-053a5f612a87.]]>
+        <![CDATA[Collection name: Iskakova.]]>
+        <![CDATA[Request name: lecture-3 / As an admin I want to change other users roles / Change role to 3.]]>
+        <![CDATA[Test description: Response has role equal to 3.]]>
+        <![CDATA[Error message: expected 2 to equal 3.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 2 to equal 3
+   at Object.eval sandbox-script.js:2:244).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-3 / As an admin I want to change other users roles / Change role to admin" id="e8d29478-b4e3-4a65-8d09-16c3de891681" timestamp="2023-09-18T07:56:23.210Z" tests="3" failures="1" errors="0" time="0.048">
+    <testcase name="Response time is less than 3000ms" time="0.048" classname="Iskakova"/>
+    <testcase name="Status code is 200" time="0.048" classname="Iskakova"/>
+    <testcase name="Response has role equal to 3" time="0.048" classname="Iskakova">
+      <failure type="AssertionFailure" message="expected 2 to equal 3">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: afcd83d5-3cb3-41ba-9d4c-053a5f612a87.]]>
+        <![CDATA[Collection name: Iskakova.]]>
+        <![CDATA[Request name: lecture-3 / As an admin I want to change other users roles / Change role to admin.]]>
+        <![CDATA[Test description: Response has role equal to 3.]]>
+        <![CDATA[Error message: expected 2 to equal 3.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 2 to equal 3
+   at Object.eval sandbox-script.js:2:245).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>
